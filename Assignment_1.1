@@ -1,0 +1,19 @@
+1. Say True or False for the below statements:
+• Prescriptive Analytics used to predict the future outcomes?
+FALSE. Predictive Analytics is used to Predict the outcomes.
+
+• Base R packages installed automatically?
+No. We need to install the packages such as dplyr.
+
+2. What is Recycling of elements in a vector?
+When we have two vectors of unequal sizes and we are performing a mathematical operation between the two vectors (addition, subtraction, multiplicaton etc.),
+then R automatically duplicates the elements of the smaller vector in the same order upto the length of the bigger vector and performa the mathematical
+operation accordingly. In short, R 'recycles' the elements of the smaller vector in order to perform the desired mathematice opration on the 
+bigger vector. This is called Recycling of Vectors.
+
+3. Give an example of recycling of elements.
+Eg. A= c(1,2,34,5)
+    B= c(8,9)
+    A+B= c(1,2,34,5) + c(8,9)
+       = ((1+8),(2+9),(34+8),(5+9))
+       =(9,11,52,14)
